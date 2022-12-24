@@ -19,9 +19,9 @@ public class Armstrong {
         System.out.println("The sum of digits is: "+sum);//sum of digits
 
         if(n == product)
-            System.out.println(n+" is an Exercises.Armstrong number.");//Exercises.Armstrong
+            System.out.println(n+" is an Armstrong number.");//Exercises.Armstrong
         else
-            System.out.println(n+" is not an Exercises.Armstrong number");
+            System.out.println(n+" is not an Armstrong number");
 
     }
 }
