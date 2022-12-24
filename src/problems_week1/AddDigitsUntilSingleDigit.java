@@ -6,7 +6,7 @@ public class AddDigitsUntilSingleDigit {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter the number: ");
         int m = sc.nextInt();
 
         AddingDigits(m);
