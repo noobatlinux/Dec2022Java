@@ -9,9 +9,9 @@ public class UniqueCharactersInString {
         String str1 = sc.nextLine();
         String str2 = "";
 
-        for(int i=0;i<str1.length();i++){
+        for (int i = 0; i < str1.length(); i++) {
             char ch = str1.charAt(i);
-            while(str2.indexOf(ch) == -1){
+            while (str2.indexOf(ch) == -1) {
                 str2 = str2 + ch;
             }
         }
