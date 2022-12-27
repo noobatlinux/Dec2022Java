@@ -7,31 +7,32 @@ public class CommonElements {
         int[] c = new int[4];
 
         System.out.print("1st Array: ");
-        for(int i=0; i<a.length;i++){
-            System.out.print(a[i]+" ");
+        for (int k : a) {
+            System.out.print(k + " ");
         }
         System.out.println();
 
         System.out.print("2nd Array: ");
-        for(int i=0; i<b.length;i++){
-            System.out.print(b[i]+" ");
+        for (int k : b) {
+            System.out.print(k + " ");
         }
         System.out.println();
 
         System.out.print("Common Elements are: ");
 
         for(int i=0;i<a.length;i++){
-            for(int j=0;j<b.length;j++){
-                if(a[i]==b[j]){
+            for (int k : b) {
+                if (a[i] == k) {
                     c[i] = a[i];
+                    break;
                 }
             }
         }
 
         System.out.print("Common Elements: ");
-        for(int i=0; i<c.length;i++) {
-            if(c[i]!=0){
-                System.out.print(c[i] + " ");
+        for (int j : c) {
+            if (j != 0) {
+                System.out.print(j + " ");
             }
         }
     }

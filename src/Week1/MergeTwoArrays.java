@@ -23,20 +23,20 @@ public class MergeTwoArrays {
         }
 
         System.out.print("1st Array: ");
-        for(int i=0; i<a.length;i++){
-            System.out.print(a[i]+" ");
+        for (int j : a) {
+            System.out.print(j + " ");
         }
         System.out.println();
 
         System.out.print("2nd Array: ");
-        for(int i=0; i<b.length;i++){
-            System.out.print(b[i]+" ");
+        for (int j : b) {
+            System.out.print(j + " ");
         }
         System.out.println();
 
         System.out.print("Merged Array(Not Sorted): ");
-        for(int i=0; i<c.length;i++){
-            System.out.print(c[i]+" ");
+        for (int j : c) {
+            System.out.print(j + " ");
         }
     }
 }

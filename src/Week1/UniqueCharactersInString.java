@@ -7,12 +7,12 @@ public class UniqueCharactersInString {
 
         System.out.print("Enter a String: ");
         String str1 = sc.nextLine();
-        String str2 = "";
+        StringBuilder str2 = new StringBuilder();
 
         for (int i = 0; i < str1.length(); i++) {
             char ch = str1.charAt(i);
-            while (str2.indexOf(ch) == -1) {
-                str2 = str2 + ch;
+            while (str2.toString().indexOf(ch) == -1) {
+                str2.append(ch);
             }
         }
 

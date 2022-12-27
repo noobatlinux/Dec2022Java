@@ -7,13 +7,13 @@ public class StringReverse {
 
         System.out.print("Enter a String: ");
         String str1 = sc.nextLine();
-        String str2 = new String();
+        StringBuilder str2 = new StringBuilder();
         char ch;
 
         for(int i = 0; i < str1.length(); i++)
         {
             ch = str1.charAt(i);
-            str2 = ch + str2;
+            str2.insert(0, ch);
         }
         System.out.println("Reverse String is "+str2);
     }

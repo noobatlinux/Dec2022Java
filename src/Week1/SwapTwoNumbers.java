@@ -11,7 +11,7 @@ public class SwapTwoNumbers {
         int a = sc.nextInt();
         System.out.print("b = ");
         int b = sc.nextInt();
-        int temp = 0;
+        int temp;
 
         temp = a;
         a = b;

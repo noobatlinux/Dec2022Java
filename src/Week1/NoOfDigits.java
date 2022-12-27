@@ -6,8 +6,7 @@ public class NoOfDigits {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Input Number: ");
-        int m = sc.nextInt();
-        int n = m, digits = 1;
+        int n = sc.nextInt(), digits = 1;
         while(n>1){
             if (n%10 != 0)
                 digits+=1;

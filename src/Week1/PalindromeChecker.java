@@ -33,15 +33,15 @@ public class PalindromeChecker {
 
             String str1 = sc.next();
 
-            String str2 = "";
+            StringBuilder str2 = new StringBuilder();
             char ch;
 
             for(int i = 0; i < str1.length(); i++)
             {
                 ch = str1.charAt(i);
-                str2 = ch + str2;
+                str2.insert(0, ch);
             }
-            if(str2.equals(str1)){
+            if(str2.toString().equals(str1)){
                 System.out.println("Palindrome String");
             }
             else
