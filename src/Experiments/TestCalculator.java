@@ -10,6 +10,7 @@ public class TestCalculator {
         AdvancedCalculator x = new AdvancedCalculator();
 
         System.out.println("\n 1. Addition \n 2. Subtraction \n 3. Multiplication \n 4. Division \n 5. Sin \n 6. Cos \n 7. Tan");
+        System.out.print("Input your choice:");
         int n = sc.nextInt();
 
         switch (n){
