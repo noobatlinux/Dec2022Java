@@ -28,6 +28,6 @@ public class StringMergeAlternate {
             }
         }
 
-        System.out.println(str);
+        System.out.print("Merged String: "+str);
     }
 }
